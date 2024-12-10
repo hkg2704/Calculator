@@ -1,0 +1,54 @@
+h1{
+    text-align: center;
+}
+.A{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.calc{   
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color:hsl(0, 0%, 10%) ;
+}
+.buttons{
+    margin: 20px;
+    display: flex;
+}
+.left {
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    gap: 10px;
+    
+}
+button{
+    background-color: hsl(0, 0%, 60%);
+    border: 2px solid hsl(0, 0%, 60%);
+    font-size:large;
+    font-weight: bolder;
+    border-radius: 30px;
+    text-align: center;
+}
+button:hover{
+    background-color: hsl(0, 0%, 40%);
+}
+.left button{
+    height: 60px;
+    width: 65px
+}
+.right button{
+    width: 65px;
+}
+.right{
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+#textbox{
+    margin: 20px;
+    align-items: center;
+    width: 90%;
+    height:50px;
+}
